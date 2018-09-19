@@ -1,0 +1,9 @@
+git status
+git checkout -b "bug_1234"
+git add -A
+git commit -m "comment here"
+#view branch
+git branch -v
+
+git push origin branch
+git pull
