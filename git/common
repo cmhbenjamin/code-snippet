@@ -1,8 +1,14 @@
 git status
+
+# create new branch
 git checkout -b "bug_1234"
+
+#switch to branch
+git checkout "bug_1234"
+
 git add -A
 git commit -m "comment here"
-#view branch
+#view existing branchs
 git branch -v
 
 git push origin branch
