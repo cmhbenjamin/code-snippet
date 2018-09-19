@@ -1,0 +1,7 @@
+""" gaussian blur"""
+float pi = 3.1415926;
+float e = 2.71828;
+float sd = ch("standard_deviation");
+float dist = length(@P);
+float g = 1/sqrt(2*pi*sd*sd)*pow(e,(-1*dist*dist)/(2*sd*sd));
+@Cd = g;
