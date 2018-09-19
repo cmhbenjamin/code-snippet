@@ -1,0 +1,4 @@
+pstat -u"*"
+kill -9 4761
+which pstat
+readlink -f
